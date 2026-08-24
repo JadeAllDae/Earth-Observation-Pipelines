@@ -23,7 +23,7 @@ This repository serves as a practical sandbox for processing multi-sensor satell
 ### 3. [Unsupervised ML: Coastline Extraction](./03_ML_Coastline_Extraction.ipynb)
 **Objective:** Deploy machine learning to automatically extract coastal boundaries and track estuarine phase-shifts at Boambee Creek, NSW.
 *   **The Problem:** Manually digitising coastlines for vulnerability assessments is inefficient and biased.
-*   **The Solution:** This pipeline calculates NDWI from Sentinel-2 data and applies **Otsu’s Thresholding** to automatically classify pixels into land vs. water without human input.
+*   **The Solution:** This pipeline calculates MNDWI from Sentinel-2 data and applies Otsu’s Thresholding to automatically classify pixels into land vs. water without human input.
 *   **Key Libraries:** `scikit-image`, `xarray`, `odc-stac`
 
 ---
