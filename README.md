@@ -41,4 +41,18 @@ These pipelines are designed to be entirely reproducible. You do not need a paid
    git clone [https://github.com/JadeAllDae/Earth-Observation-Pipelines.git](https://github.com/JadeAllDae/Earth-Observation-Pipelines.git)
    cd Earth-Observation-Pipelines
 
-   
+   ## 📫 About the Author
+
+**Jade Farrugia**  
+*PhD Candidate (Marine Biogeochemical Modelling) @ UWA*  
+*Founder @ The Oceans Need Us*
+
+I specialize in fusing Earth Observation data, autonomous marine robotics, and high-performance supercomputing to map coastal carbon export and ecosystem dynamics. 
+
+To learn more about my research, my open-source work or *The Oceans Need Us*, please check out my main profile or connect with me below:
+
+* 🐙 **Main GitHub Profile:** [JadeAllDae](https://github.com/JadeAllDae)
+* 💼 **LinkedIn:** [jadefarrugia](https://www.linkedin.com/in/jadefarrugia)
+* 🎓 **Google Scholar:** [Jade Farrugia](https://scholar.google.com/citations?user=NRfOnhkAAAAJ&hl=en&oi=ao)
+* 🆔 **ORCID:** [0009-0003-5824-3603](https://orcid.org/0009-0003-5824-3603)
+* 🌊 **NFP / Foundation:** [The Oceans Need Us](https://www.theoceansneedus.org)
