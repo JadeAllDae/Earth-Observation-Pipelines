@@ -41,7 +41,7 @@ These pipelines are designed to be entirely reproducible. You do not need a paid
    git clone [https://github.com/JadeAllDae/Earth-Observation-Pipelines.git](https://github.com/JadeAllDae/Earth-Observation-Pipelines.git)
    cd Earth-Observation-Pipelines
 
-   ## 📫 About the Author
+## 📫 About the Author
 
 **Jade Farrugia**  
 *PhD Candidate (Marine Biogeochemical Modelling) @ UWA*  
