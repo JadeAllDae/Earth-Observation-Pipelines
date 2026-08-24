@@ -8,6 +8,11 @@ dependencies:
   - "erddapy<2.0.0"
   - "pandas<2.0.0"
   - xarray
+  - dask
   - netcdf4
   - matplotlib
   - jupyter
+  - pystac-client
+  - planetary-computer
+  - odc-stac
+  - scikit-image
