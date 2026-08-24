@@ -20,6 +20,12 @@ This repository serves as a practical sandbox for processing multi-sensor satell
 *   **The Solution:** This pipeline uses the `argopy` library to dynamically query the live Argo database via API. It converts the 4D data cube into vertical profiles, bridging the gap between physical in-situ robotics and spatial data structures.
 *   **Key Libraries:** `argopy`, `xarray`, `pandas`, `matplotlib`
 
+### 3. [Unsupervised ML: Coastline Extraction](./03_ML_Coastline_Extraction.ipynb)
+**Objective:** Deploy machine learning to automatically extract coastal boundaries and track estuarine phase-shifts at Boambee Creek, NSW.
+*   **The Problem:** Manually digitising coastlines for vulnerability assessments is inefficient and biased.
+*   **The Solution:** This pipeline calculates NDWI from Sentinel-2 data and applies **Otsu’s Thresholding** to automatically classify pixels into land vs. water without human input.
+*   **Key Libraries:** `scikit-image`, `xarray`, `odc-stac`
+
 ---
 
 ## 🛠️ Core Tech Stack
