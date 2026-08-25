@@ -11,13 +11,13 @@ This repository serves as a practical sandbox for processing multi-sensor satell
 ### 1. [Sentinel-2 STAC Temporal Median Composites](./01_STAC_Temporal_Median_Composites.ipynb)
 **Objective:** Generate pristine, cloud-free, and atmospherically corrected imagery of dynamic coastal environments (Lady Elliot Island, Great Barrier Reef).
 *   **The Problem:** Raw optical imagery of marine environments is heavily impacted by transient cloud cover, cloud shadows, and atmospheric haze.
-*   **The Solution:** This pipeline queries the **Microsoft Planetary Computer STAC API**. It uses `xarray` and `dask` to lazily load time-series data and compute a mathematical temporal median pixel-by-pixel, effectively filtering atmospheric noise.
+*   **The Solution:** This pipeline queries the Microsoft Planetary Computer STAC API. It uses `xarray` and `dask` to lazily load time-series data and compute a mathematical temporal median pixel-by-pixel, effectively filtering atmospheric noise.
 *   **Key Libraries:** `pystac-client`, `odc-stac`, `xarray`, `dask`, `matplotlib`
 
 ### 2. [Autonomous Ocean Robotics: 4D Argo Profiling](./02_Argo_Float_Vertical_Profiles.ipynb)
 **Objective:** Query the global database of autonomous Argo profiling floats to extract and visualize 4D oceanographic profiles (Temperature and Salinity vs. Depth) across Western Australia.
 *   **The Problem:** Traditional ocean sampling requires expensive research vessels, leaving massive spatial gaps in remote marine environments.
-*   **The Solution:** This pipeline uses the `argopy` library to dynamically query the live Argo database via API. It converts the 4D data cube into vertical profiles, bridging the gap between physical in-situ robotics and spatial data structures.
+*   **The Solution:** This pipeline uses the `argopy` library to query the live Argo database via API. It converts the 4D data cube into vertical profiles, bridging the gap between physical in-situ robotics and spatial data structures.
 *   **Key Libraries:** `argopy`, `xarray`, `pandas`, `matplotlib`
 
 ### 3. [Unsupervised ML: Coastline Extraction](./03_ML_Coastline_Extraction.ipynb)
@@ -61,7 +61,7 @@ These pipelines are designed to be entirely reproducible. You do not need a paid
 
 I specialize in fusing Earth Observation data, autonomous marine robotics, and high-performance supercomputing to map coastal carbon export and ecosystem dynamics. 
 
-To learn more about my research, my open-source work or *The Oceans Need Us*, please check out my main profile or connect with me below:
+To learn more about my research, my open-source work or The Oceans Need Us, please check out my main profile or connect with me below:
 
 * 🐙 **Main GitHub Profile:** [JadeAllDae](https://github.com/JadeAllDae)
 * 💼 **LinkedIn:** [jadefarrugia](https://www.linkedin.com/in/jadefarrugia)
