@@ -26,6 +26,12 @@ This repository serves as a practical sandbox for processing multi-sensor satell
 *   **The Solution:** This pipeline calculates MNDWI from Sentinel-2 data and applies Otsu’s Thresholding to automatically classify pixels into land vs. water without human input.
 *   **Key Libraries:** `scikit-image`, `xarray`, `odc-stac`
 
+### 4. Direct Cloud Access: Sentinel-3 Multidimensional NetCDF Cubes
+* **Objective:** Demonstrate direct cloud-filesystem access to complex multidimensional NetCDF data cubes, bypassing local downloads.
+* **The Problem:** Advanced oceanographic sensors like Sentinel-3 store data in complex, multi-layered NetCDF formats that traditional loaders struggle to parse without downloading massive global swaths locally.
+* **The Solution:** This pipeline uses Python's native cloud-filesystem reader (`fsspec`) and `xarray` to directly open and manipulate multidimensional data cubes straight from the Microsoft Planetary Computer, unpacking 32-bit Water Quality and Science Flags (WQSF).
+* **Key Libraries:** `xarray`, `fsspec`, `pystac-client`, `h5netcdf`
+
 ---
 
 ## 🛠️ Core Tech Stack
