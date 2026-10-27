@@ -59,7 +59,7 @@ These pipelines are designed to be entirely reproducible. You do not need a paid
 *PhD Candidate (Marine Biogeochemical Modelling) @ UWA*  
 *Founder @ The Oceans Need Us*
 
-I specialize in fusing Earth Observation data, autonomous marine robotics, and high-performance supercomputing to map coastal carbon export and ecosystem dynamics. 
+I specialise in fusing Earth Observation data, autonomous marine robotics, and high-performance supercomputing to map coastal carbon export and ecosystem dynamics. 
 
 To learn more about my research, my open-source work or The Oceans Need Us, please check out my main profile or connect with me below:
 
